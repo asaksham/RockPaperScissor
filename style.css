@@ -1,0 +1,42 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    text-align: center;
+    font-size: large;
+}
+
+.scorePanel{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.boxes{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    /* margin: auto; */
+    text-align: center;
+    padding: auto 0;
+    /* align-items: center; */
+}
